@@ -40,7 +40,7 @@ async function searchImages() {
 
     imageWrapper.appendChild(image);
     imageWrapper.appendChild(imageLink);
-    imageWrapper.appendChild(imageWrapper);
+    searchResults.appendChild(imageWrapper);
   });
 
   page++;
